@@ -1,0 +1,25 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* --- Main --- */
+main {
+  min-height: 550px;
+}
+
+/* ---Header ---*/
+#menu-header{
+  height: 50px;
+}
+
+#heading-link-header{
+  padding-top: 0.8em;
+  padding-left: 0.5em;
+}
+
+/* ---Footer---*/
+#footer{
+  border-top: 1px solid gray;
+  #copyright-content{
+    text-align: center;
+  }
+}
