@@ -7,8 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <%= render "layouts/header" %>
+  </header>
 
-<%= yield %>
+  <main>
+    <div class="ui doubling stackable grid container">
+      <%= yield %>
+    </div>
+  </main>
 
+  <footer>
+    <%= render "layouts/footer" %>
+  </footer>
 </body>
 </html>

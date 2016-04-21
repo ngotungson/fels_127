@@ -20,4 +20,18 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  app:
+    name: ELearning
+  layout:
+    footer:
+      copyright: © 2016 ELearning. All Rights Reserved
+  static_pages:
+    contact:
+      name: Contact
+      email: Email
+      owner_email: ngotungson0602@gmail.com
+      phone: Phone
+      owner_phone: 01686110490
+    home:
+      wordlist: WordList
+      category: Category
