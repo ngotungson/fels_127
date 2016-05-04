@@ -26,12 +26,21 @@ en:
     footer:
       copyright: © 2016 ELearning. All Rights Reserved
   static_pages:
-    contact:
-      name: Contact
-      email: Email
-      owner_email: ngotungson0602@gmail.com
-      phone: Phone
-      owner_phone: 01686110490
-    home:
-      wordlist: WordList
-      category: Category
+    contact: Contact
+    home: Home
+    email: Email
+    phone: phone
+    owner_email: ngotungson0602@gmail.com
+    owner_phone: 01686110490
+    signup: Sign up
+  flash:
+    signup:
+      success: "Welcome to ELearning"
+  form:
+    contain_mess: The form contains
+    name: Name
+    email: Email
+    password: Password
+    password_confirmation: Confirmation
+  error: error
+

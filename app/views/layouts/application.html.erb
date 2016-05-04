@@ -11,8 +11,9 @@
     <%= render "layouts/header" %>
   </header>
 
-  <main>
-    <div class="ui doubling stackable grid container">
+  <main class="jumbotron">
+    <div class="container-fluid">
+      <%= render "shared/flash" %>
       <%= yield %>
     </div>
   </main>
